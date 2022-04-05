@@ -134,7 +134,7 @@ In the next step, we'll start a Service and Pod to see these control plane compo
 
 we'll connect a Service with the three most common types: Cluster IP, NodePort, and Load Balancer. As we switch between the service types, each Service will connect to the same application. The application Deployment declaration looks like this:
 
-```aidl
+```
 apiVersion: apps/v1
 kind: Deployment
 metadata:
