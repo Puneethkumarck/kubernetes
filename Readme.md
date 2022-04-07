@@ -2,7 +2,7 @@
 
 - [Service discovery](servicediscovery.md)
 - [Service Account](serviceaccount.md)
-- [Service](service.md)
+- [service](service.md)
 - [stateful](stateful.md)
 - [securitycontext](securitycontext.md)
 - [secret](secret.md)
