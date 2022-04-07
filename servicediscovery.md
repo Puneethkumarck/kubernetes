@@ -178,7 +178,7 @@ However, these IPs are not addressable endpoints, and if you asked Kubernetes fo
 ```
 kubectl get endpoints
 ```
-![endpoint.png](servicediscovery/endpoint.png)
+![endpoint.png](servicediscovery/get_endpoints.png)
 
 The last thing any other application should do is to try to discover and connect to these IPs. 
 
@@ -222,7 +222,7 @@ You can verify the Service is connected to the Pods by inspecting the endpoints:
 ```
 kubectl get endpoints
 ```
-![get_endpoints.png](servicediscovery/get_endpoints.png)
+![get_endpoints.png](servicediscovery/endpoint.png)
 
 
 The IPs listed are the virtual IPs of the Pods. The Service is also assigned a virtual IP. 
